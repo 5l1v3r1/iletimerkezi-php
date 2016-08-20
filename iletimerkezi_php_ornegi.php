@@ -46,7 +46,7 @@ EOS;
 
 $result = sendRequest('http://api.iletimerkezi.com/v1/send-sms',$xml,array('Content-Type: text/xml'));
 die('<pre>'.var_export($result,1).'</pre>');
-//Donen xml degerini sisteminizde parse etmek icin
+//Donen xml degerini sisteminizde parse etmek icin.
 //http://www.lalit.org/lab/convert-xml-to-array-in-php-xml2array/
 //adresindeki kutuphaneyi oneririz
 ?>
